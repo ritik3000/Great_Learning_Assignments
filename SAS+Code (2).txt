@@ -3,11 +3,11 @@ proc import datafile = 'C:/Users/rishabh.pandey/Desktop/SAS/Week 2/Practice/Medi
 out=medical_insurance_data dbms=CSV;
 run;
 
-/*Question2: Content of the dataset*/
+/*Question2: Content of the dataset-----testing*/
 proc contents data=medical_insurance_data varnum;
 run;
 
-/*Question3: Outlier checking*/
+/*Question3: Outlier rddd  checking*/
 proc univariate data=medical_insurance_data;
 var age Overall_Satisfaction_Score premium Network_hospital_nearby not_passed_percent_claim;
 run;
